@@ -235,7 +235,7 @@ with st.sidebar:
     st.markdown("- [Sarvam Docs](https://docs.sarvam.ai)")
     st.markdown("- [GitHub Repo](https://github.com/Touseef1949)")
     st.markdown("---")
-    st.caption("Built by [Touseef Shaik](https://touseefshaik.com)")
+    st.markdown("<p style='text-align:center; color:#888; font-size:0.85rem;'>🎙️ Built by <a href='https://touseefshaik.com' target='_blank'>Touseef Shaik</a></p>", unsafe_allow_html=True)
 
 if not api_key.strip():
     st.warning("👈 Enter your Sarvam API key in the sidebar to get started.")
